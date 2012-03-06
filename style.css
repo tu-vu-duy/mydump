@@ -1,0 +1,36 @@
+* {margin:0; padding:0; outline:0; font-family:helvetica,arial,sans; line-height:1.5em}
+body {margin:12px; color:#444; width:750px; margin:12px auto}
+body, table {font-size:12px}
+code {font-family:courier new}
+small {font-size:10px}
+input,select{vertical-align:middle; font-size:12px; border:1px solid #ccc}
+option {padding-left:4px}
+table {border-collapse:collapse}
+tr {vertical-align:top}
+tr:hover {background:#f9faf0}
+th {background:#f7f7f7; color:#222; white-space:nowrap; text-align:left; font-size:13px; cursor:default}
+th, td {padding:4px 6px}
+table, th, td {border-color:#e0e0e0}
+a {text-decoration:none; color:#0874d3; cursor:pointer}
+a:hover {text-decoration:underline; color:#1f68a8}
+a:active {color:#bf371c}
+
+.topnav {margin-bottom:12px; padding-bottom:0; border-bottom:1px dotted #ccc; font-size:12px}
+.topnav .back-links {float:right}
+.topnav .back-links a {text-decoration:underline}
+.topnav b {font-size:14px; color:#0d0e0f}
+.topnav code {padding-left:3px; letter-spacing:-0.7px; font-size:15px}
+.list-table {width:100%; font-size:12px; margin-bottom:6px; border:1px solid #e0e0e0}
+.dump-action {float:right; margin-top:3px}
+.dump-action button {width:55px; padding:1px 3px; line-height:0.8em}
+.dump-action select#dumpundump_y {width:60px}
+.dump-action select#dumpundump_m, .dump-action select#dumpundump_d {width:40px}
+
+.table-info {margin-top:30px}
+.table-info .caption {margin-bottom:1px; font-weight:bold; font-size:14px}
+.table-info table {width:100%}
+.table-info .multi-fulltext {padding:0}
+.table-info .multi-fulltext div {padding:4px 6px; border-bottom:1px solid #e0e0e0}
+.table-info .multi-fulltext div:last-child {border-bottom:0}
+
+.footer {border-top:1px solid #e0e0e0; margin-top:50px; padding-top:5px; color:#888; font-size:11px}

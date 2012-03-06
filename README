@@ -1,0 +1,8 @@
+1. Set up your configs in _cfg.php file
+
+2. DO NOT forget to secure /mydump directory by using $_SESSION
+	// take a look at end of _cfg.php file
+
+3. Use a proper web browser (ie. Firefox) which is supporting XMLHttpRequest()
+
+4. Always delete dump files/folders from your server using mydump after downloading them
