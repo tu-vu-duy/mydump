@@ -6,3 +6,5 @@
 3. Use a proper web browser (ie. Firefox) which is supporting XMLHttpRequest()
 
 4. Always delete dump files/folders from your server using mydump after downloading them
+
+FOr more: htt://qeremy.com/mydump
