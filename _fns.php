@@ -121,7 +121,9 @@ function mydump_field_info($x = null) {
 		$r = @mydump_fetch_object_all("SHOW FULL FIELDS FROM `". TABLE ."`");
 		if ($r) {
 			foreach ($r as $row) {
-				$type = preg_match("/(tinyint|smallint|mediumint|int|bigint|float|double|decimal)/i", $row->Type) ? "integer" : "string";
+				$type = preg_match("/(tinyint|smallint|mediumint|int|bigint|float|double|decimal)/i", $row->Type) 
+					? "integer"
+					: "string";
 				$null = $row->Null == "NO" ? 0 : 1;
 				$info[$row->Field] = array(
 					"name" => $row->Field,
